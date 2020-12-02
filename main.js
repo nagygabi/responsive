@@ -1,11 +1,11 @@
 // window.onload =
 
 function pageLoaded() {
+  function hello () {
+    console.log("Hello"); 
+  }
   document.getElementById("logo").addEventListener("click", hello);
 };
 
-function hello () {
-  console.log("Hello"); 
-}
 
 window.addEventListener("load", pageLoaded);
